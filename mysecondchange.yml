@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebip
   become: yes
   tasks:
   - name: install apache2 webserver on all Ubantu nodes
