@@ -13,3 +13,7 @@
 [mydevser]
 172.31.25.239
 172.31.92.30
+
+[mywebip:vars]
+myapache: apache2
+myredhat: httpd
