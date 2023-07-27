@@ -1,6 +1,6 @@
 ---
 - hosts: mywebip
-  become: all
+  become: yes
   tasks:
    - name: Install java in your ubuntu server 
      apt:
