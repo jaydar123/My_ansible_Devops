@@ -4,12 +4,12 @@
   tasks:
    - name: Install java in your ubuntu server 
      apt:
-      name: ubantujava
+      name: "{{ubantujava}}"
       state: present
      when: ansible_os_family== "Debian"   
 
    - name: Install java in your Redhat server 
      dnf:
-      name: redhatjava
+      name: "{{redhatjava}}"
       state: present
      when: ansible_os_family== "RedHat" 
