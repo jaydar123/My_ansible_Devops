@@ -3,4 +3,4 @@ myredhat: httpd
 
 
 ubantujava: openjdk-8-jre
-redhatjava: java-openjdk11
+redhatjava: java-1.8.0-openjdk
