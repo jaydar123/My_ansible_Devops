@@ -1,0 +1,15 @@
+---
+- hosts: mywebip
+  become: all
+  tasks:
+   - name: Install java in your ubuntu server 
+     apt:
+      name: ubantujava
+      state: present
+     when: ansible_os_family== "Debian"   
+
+   - name: Install java in your Redhat server 
+     dnf:
+      name: redhatjava
+      state: present
+     when: ansible_os_family== "RedHat" 
