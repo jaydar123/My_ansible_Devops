@@ -2,5 +2,5 @@ myapache: apache2
 myredhat: httpd
 
 
-ubantujava: openjdk-11-jdk
+ubantujava: openjdk-8-jre
 redhatjava: java-openjdk11
