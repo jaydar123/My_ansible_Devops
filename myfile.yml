@@ -1,0 +1,5 @@
+---
+- name: I want to create a file on nodes
+  file:
+    path: /home/jay/myfirstfile.txt
+    state: touch
