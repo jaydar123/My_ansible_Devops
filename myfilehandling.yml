@@ -8,9 +8,9 @@
        src: testing1.yml
        dest: /home/jay/testing1.yml
 
-    - name: I want to install apache server on my node 
+    - name: I want to install Redhat server on my node 
       apt:
-        name: apache2
+        name: httpd
         state: present
 
     
