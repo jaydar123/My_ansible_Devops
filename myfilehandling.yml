@@ -16,5 +16,5 @@
     - name: I want to change the Output screen of my node
       template:
         src: myoutputcontent.j2
-        dest:       
+        dest: var/www/html/index.html      
 
