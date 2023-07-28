@@ -8,3 +8,13 @@
        src: testing1.yml
        dest: /home/jay/testing1.yml
 
+    - name: I want to install apache server on my node 
+      apt:
+        name: apache2
+        state: present
+
+    - name: I want to change the Output screen of my node
+      template:
+        src: myoutputcontent.j2
+        dest:       
+
