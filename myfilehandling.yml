@@ -21,7 +21,7 @@
     - name: Grab the content from internet
       get_url:
         url: https://www.google.com/imgres?imgurl=https%3A%2F%2Fbd.gaadicdn.com%2Fprocessedimages%2Findian%2Fscout-bobber%2F640X309%2Fscout-bobber62e8a54b299f5.jpg&tbnid=o9hLvkqn_utdKM&vet=12ahUKEwiVjJLQgLKAAxUM5zgGHTJmAaoQMygEegUIARD2AQ..i&imgrefurl=https%3A%2F%2Fwww.bikedekho.com%2Findian%2Fscout-bobber&docid=RrCmBUho4JRJSM&w=464&h=309&q=bike&ved=2ahUKEwiVjJLQgLKAAxUM5zgGHTJmAaoQMygEegUIARD2AQ
-        dest: /home/jay
+        dest: /home/jay/imagelink
         
     
 
