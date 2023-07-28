@@ -10,7 +10,7 @@
 
     - name: I want to install apache server on my node 
       apt:
-        name: apache2
+        name: httpd
         state: present
 
     
