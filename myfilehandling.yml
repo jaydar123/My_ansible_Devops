@@ -9,7 +9,7 @@
        dest: /home/jay/testing1.yml
 
     - name: I want to install Redhat server on my node 
-      apt:
+      dnf:
         name: httpd
         state: present
 
