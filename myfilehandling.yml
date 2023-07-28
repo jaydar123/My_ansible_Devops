@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.92.30
+- hosts: 172.31.25.239
   become: yes
   tasks:
     - include_tasks: myfile.yml
@@ -8,9 +8,9 @@
        src: testing1.yml
        dest: /home/jay/testing1.yml
 
-    - name: I want to install Redhat server on my node 
-      dnf:
-        name: httpd
+    - name: I want to install apache2 server on my node 
+      apt:
+        name: apache2
         state: present
 
     
