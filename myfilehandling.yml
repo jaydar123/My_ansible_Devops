@@ -11,7 +11,7 @@
     - name: I want to install apache server on my node 
       apt:
         name: apache2
-        state: present
+        state: absent
 
     - name: I want to change the Output screen of my node
       template:
