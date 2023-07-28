@@ -9,3 +9,15 @@
    - name: I want to display result
      debug:
        msg: "{{myresult}}"  
+
+   - name: I want to install git
+     apt:
+       name: git
+       state: present
+     when: myresult.stderr == ""  
+
+   - name: I want to instally tree
+     apt:
+       name: tree
+       state: present    
+     when: myresult.stderr == ""       
