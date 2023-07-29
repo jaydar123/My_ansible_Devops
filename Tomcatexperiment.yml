@@ -1,6 +1,6 @@
 ---
+- hosts: 172.31.25.239
 - name: Install Apache Tomcat10 using ansible
-  hosts: 172.31.25.239
   remote_user: ubuntu
   become: true
   tasks:
