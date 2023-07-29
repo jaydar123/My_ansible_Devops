@@ -1,0 +1,19 @@
+---
+- myStudents:
+   - name: jay
+     Address:  
+      Pincode: 442907
+      landmark: Railway station
+     Phone: 8007051755
+
+   - name: abhi
+     Address:  
+      Pincode: 442907
+      landmark: Railway station
+     Phone: 8007051755
+
+   - name: sunil
+     Address:  
+      Pincode: 442907
+      landmark: Railway station
+     Phone: 8007051755

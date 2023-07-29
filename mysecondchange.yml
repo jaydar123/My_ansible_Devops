@@ -4,24 +4,24 @@
   tasks:
   - name: install apache2 webserver on all Ubantu nodes
     apt:
-      name: apache2
+      name: myapache
       state: present
     when: ansible_os_family== "Debian"
 
   - name: start the apache2 server on all Ubantu nodes
     service:
-      name: apache2 
+      name: myapache 
       state: started
     when: ansible_os_family== "Debian"
 
   - name: install Redhat server on nodes all Redhat nodes
     dnf:
-      name: httpd
+      name: myredhat
       state: present
     when: ansible_os_family== "RedHat"
 
   - name: start the Redhat server on all Redhat nodes
     service:
-      name: httpd
+      name: myredhat
       state: started
     when: ansible_os_family== "RedHat"  
