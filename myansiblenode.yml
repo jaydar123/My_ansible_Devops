@@ -2,11 +2,11 @@
 - hosts: localhost
   become: yes 
   tasks:
-  - name: Create an automated node or server
+  - name: create automation
     ec2:
       key_name: DevopsKey
       instance_type: t2.micro
-      image_id: ami-0fbccc6ca8506091e
+      image: ami-0fbccc6ca8506091e
       wait: yes
       group: launch-wizard-9
       count: 2
