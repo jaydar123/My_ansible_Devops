@@ -3,7 +3,7 @@
   become: all 
   tasks:
    - name: Create an automated EC2 node or server
-     EC2:
+     ec2:
         key_name: "prod-ssh-key"
         instance_type: t2.micro
         image: ami-0fbccc6ca8506091e
