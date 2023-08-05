@@ -2,7 +2,7 @@
 - hosts: localhost
   become: yes 
   tasks:
-  - name: create automation
+  - name: "create automation"
     ec2:
       key_name: DevopsKey
       instance_type: t2.micro
