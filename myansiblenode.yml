@@ -4,15 +4,15 @@
   tasks:
   - name: Create an automated EC2 node or server
     ec2:
-        key_name: prod-ssh-key
-        instance_type: t2.micro
-        image: ami-0fbccc6ca8506091e
-        wait: yes
-        group: launch-wizard-9
-        count: 2
-        vpc_subnet_id: subnet-0e222a6ca873291c5
-        assign_public_ip: yes
-        region: us-east-1
-        instance_tags:
-          Name: AnsibleNodes
+      key_name: prod-ssh-key
+      instance_type: t2.micro
+      image: ami-0fbccc6ca8506091e
+      wait: yes
+      group: launch-wizard-9
+      count: 2
+      vpc_subnet_id: subnet-0e222a6ca873291c5
+      assign_public_ip: yes
+      region: us-east-1
+      instance_tags:
+        Name: AnsibleNodes
 
