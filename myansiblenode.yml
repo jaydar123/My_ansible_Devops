@@ -2,7 +2,7 @@
 - hosts: localhost
   become: all 
   tasks:
-   - name: Create an automated EC2 node/server
+   - name: Create an automated EC2 node or server
      EC2:
         key_name: "prod-ssh-key"
         instance_type: t2.micro
