@@ -4,7 +4,7 @@
   tasks:
   - name: Create an automated node or server
     ec2:
-      key_name: prod-ssh-key
+      key_name: DevopsKey
       instance_type: t2.micro
       image: ami-0fbccc6ca8506091e
       wait: yes
