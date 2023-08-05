@@ -6,7 +6,7 @@
     ec2:
       key_name: DevopsKey
       instance_type: t2.micro
-      image: ami-0fbccc6ca8506091e
+      image_id: ami-0fbccc6ca8506091e
       wait: yes
       group: launch-wizard-9
       count: 2
