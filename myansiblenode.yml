@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  become: all 
+  become: yes 
   tasks:
    - name: Create an automated EC2 node or server
      ec2:
